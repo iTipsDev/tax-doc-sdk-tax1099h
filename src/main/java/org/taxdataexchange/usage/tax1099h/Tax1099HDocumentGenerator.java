@@ -56,7 +56,7 @@ public class Tax1099HDocumentGenerator {
         Tax1099HPdfBuilder pdfBuilder = new Tax1099HPdfBuilder( );
         byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
-        String filePath = "samples/Tax1099H.sample.png";
+        String filePath = "samples/Tax1099H.qr.png";
         FileUtils.bytesToFile( bytes, filePath );
         System.out.println( filePath );
 
@@ -84,6 +84,12 @@ public class Tax1099HDocumentGenerator {
         String filePath = "samples/Tax1099H.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
         System.out.println( filePath );
+
+        String filePathPng = "samples/Tax1099H.sample.png";
+        byte[] pngBytes = Pdf2PngConverter.convertBytes( pdfBytes );
+        FileUtils.bytesToFile( pngBytes, filePathPng );
+        System.out.println( filePathPng );
+
 
     }
 
