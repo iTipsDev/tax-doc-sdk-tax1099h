@@ -1,0 +1,54 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "28-925-5344",
+  "taxFormId" : "5612710",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0641849",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Gibson, Lesch and Connelly"
+    },
+    "address" : {
+      "line1" : "74786 Gislason Port",
+      "city" : "Towneburgh",
+      "region" : "NC",
+      "postalCode" : "80995",
+      "unitType" : "Apt",
+      "unitNumber" : "763"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "cristobal.hill@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-46-0787",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Barney",
+      "middle" : "Leonor",
+      "last" : "Mitchell"
+    },
+    "businessName" : {
+      "name1" : "Von-Kuhlman"
+    },
+    "address" : {
+      "line1" : "80286 Gregorio Plain",
+      "city" : "Mraztown",
+      "region" : "CT",
+      "postalCode" : "60260",
+      "unitType" : "Apt",
+      "unitNumber" : "933"
+    },
+    "email" : "jeanine.okeefe@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "advancePayments" : 200,
+  "numberOfMonths" : 300,
+  "payments" : [ {
+    "month" : "JAN",
+    "amount" : 400
+  } ]
+}

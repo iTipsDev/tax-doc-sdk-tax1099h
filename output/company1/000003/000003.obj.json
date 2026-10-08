@@ -1,0 +1,54 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "75-994-0175",
+  "taxFormId" : "1015643",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0641849",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Gibson, Lesch and Connelly"
+    },
+    "address" : {
+      "line1" : "74786 Gislason Port",
+      "city" : "Towneburgh",
+      "region" : "NC",
+      "postalCode" : "80995",
+      "unitType" : "Apt",
+      "unitNumber" : "763"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "cristobal.hill@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-53-8774",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Nickolas",
+      "middle" : "Lucas",
+      "last" : "Mann"
+    },
+    "businessName" : {
+      "name1" : "Fisher, Weimann and O'Kon"
+    },
+    "address" : {
+      "line1" : "448 Clifford Glen",
+      "city" : "Alexisburgh",
+      "region" : "WI",
+      "postalCode" : "39538",
+      "unitType" : "Apt",
+      "unitNumber" : "077"
+    },
+    "email" : "ping.graham@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "advancePayments" : 200,
+  "numberOfMonths" : 300,
+  "payments" : [ {
+    "month" : "JAN",
+    "amount" : 400
+  } ]
+}

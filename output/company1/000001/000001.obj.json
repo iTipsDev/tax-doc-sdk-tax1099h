@@ -1,0 +1,54 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "61-076-3734",
+  "taxFormId" : "2656862",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0641849",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Gibson, Lesch and Connelly"
+    },
+    "address" : {
+      "line1" : "74786 Gislason Port",
+      "city" : "Towneburgh",
+      "region" : "NC",
+      "postalCode" : "80995",
+      "unitType" : "Apt",
+      "unitNumber" : "763"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "cristobal.hill@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-32-7034",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Gabriel",
+      "middle" : "Darnell",
+      "last" : "Ruecker"
+    },
+    "businessName" : {
+      "name1" : "Boyer LLC"
+    },
+    "address" : {
+      "line1" : "60208 Eleanora Fall",
+      "city" : "Miltonville",
+      "region" : "OR",
+      "postalCode" : "65535",
+      "unitType" : "Apt",
+      "unitNumber" : "842"
+    },
+    "email" : "anika.lindgren@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "advancePayments" : 200,
+  "numberOfMonths" : 300,
+  "payments" : [ {
+    "month" : "JAN",
+    "amount" : 400
+  } ]
+}
